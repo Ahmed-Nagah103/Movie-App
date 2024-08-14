@@ -6,7 +6,6 @@ import 'package:movie_app_clean_arc/movies/domain/usecases/movie_details.dart';
 import '../../../../core/dependency_injector.dart';
 import '../../../../core/error/failure.dart';
 import '../../../domain/entities/movie_details.dart';
-import '../../../domain/entities/recommendations.dart';
 
 part 'movie_details_state.dart';
 

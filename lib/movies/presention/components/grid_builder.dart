@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:movie_app_clean_arc/core/utils/constants/app_constants.dart';
-import 'package:movie_app_clean_arc/core/utils/extensions.dart';
 
 import 'item_component.dart';
 

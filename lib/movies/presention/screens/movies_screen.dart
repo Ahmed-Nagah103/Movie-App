@@ -2,8 +2,6 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_app_clean_arc/core/utils/constants/app_constants.dart';
-import 'package:movie_app_clean_arc/core/utils/constants/responsive.dart';
-import 'package:movie_app_clean_arc/core/utils/dummy.dart';
 import 'package:movie_app_clean_arc/core/utils/extensions.dart';
 import 'package:movie_app_clean_arc/movies/presention/components/popular_component.dart';
 import 'package:movie_app_clean_arc/movies/presention/components/top_rated_compnent.dart';

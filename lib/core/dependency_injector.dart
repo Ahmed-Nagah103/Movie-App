@@ -1,9 +1,7 @@
 
 import 'package:get_it/get_it.dart';
 import 'package:movie_app_clean_arc/movies/data/data_source/movie_remote_data_source.dart';
-import 'package:movie_app_clean_arc/movies/data/models/movie_details_model.dart';
 import 'package:movie_app_clean_arc/movies/data/repository/movies_repository_imp.dart';
-import 'package:movie_app_clean_arc/movies/domain/entities/movie_details.dart';
 import 'package:movie_app_clean_arc/movies/domain/repository/base_movie_repostory.dart';
 import 'package:movie_app_clean_arc/movies/domain/usecases/get_now_playing_movie.dart';
 import 'package:movie_app_clean_arc/movies/domain/usecases/get_popular_movie.dart';

@@ -1,11 +1,10 @@
 import 'package:movie_app_clean_arc/movies/data/models/genre_model.dart';
-import 'package:movie_app_clean_arc/movies/domain/entities/genre.dart';
 import 'package:movie_app_clean_arc/movies/domain/entities/movie_details.dart';
 
 import '../../../core/utils/constants/app_constants.dart';
 
 class MovieDetailsModel extends MovieDetails {
-  MovieDetailsModel({required super.backdropPath,
+  const MovieDetailsModel({required super.backdropPath,
     required super.genres, required super.id,
     required super.overview, required super.releaseDate,
     required super.runtime, required super.title,

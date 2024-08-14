@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:movie_app_clean_arc/core/error/exceptions.dart';

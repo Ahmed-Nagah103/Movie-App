@@ -1,15 +1,11 @@
-import 'dart:ffi';
 
 import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
 import 'package:movie_app_clean_arc/movies/domain/entities/recommendations.dart';
 import 'package:movie_app_clean_arc/movies/domain/usecases/get_now_playing_movie.dart';
 import 'package:movie_app_clean_arc/movies/domain/usecases/get_popular_movie.dart';
 import 'package:movie_app_clean_arc/movies/domain/usecases/get_recommendations.dart';
 import 'package:movie_app_clean_arc/movies/domain/usecases/get_top_rated_movie.dart';
 import 'package:movie_app_clean_arc/movies/domain/usecases/movie_details.dart';
-import '../../../../core/dependency_injector.dart';
-import '../../../../core/error/failure.dart';
 import '../../../domain/entities/movie.dart';
 import '../../../domain/entities/movie_details.dart';
 
@@ -36,7 +32,7 @@ class MoviesCubit extends Cubit<MoviesState> {
 
   Future<List<Movie>> executeGetNowPlayingMovie()async{
     emit(LoadingState());
-    final response= await getNowPlayingMovie.execute().then((value){
+     await getNowPlayingMovie.execute().then((value){
        value.fold(
          (left){
            print(left.message);

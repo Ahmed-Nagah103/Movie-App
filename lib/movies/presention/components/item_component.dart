@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_app_clean_arc/core/utils/extensions.dart';
-import 'package:movie_app_clean_arc/movies/presention/screens/movie_details_screen.dart';
 
 import '../../../core/utils/constants/app_constants.dart';
 import '../controller/movie_cubit/movies_cubit.dart';

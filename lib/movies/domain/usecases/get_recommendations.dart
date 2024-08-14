@@ -1,5 +1,4 @@
 import 'package:dartz/dartz.dart';
-import 'package:movie_app_clean_arc/movies/domain/entities/movie.dart';
 import 'package:movie_app_clean_arc/movies/domain/entities/recommendations.dart';
 import 'package:movie_app_clean_arc/movies/domain/repository/base_movie_repostory.dart';
 
